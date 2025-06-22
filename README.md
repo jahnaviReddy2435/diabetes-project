@@ -95,8 +95,3 @@ img_buf = io.BytesIO()
 fig1.savefig(img_buf, format='png')
 st.download_button("Download Age Histogram", data=img_buf.getvalue(), file_name="age_histogram.png", mime="image/png")
 
-
-![image](https://github.com/user-attachments/assets/35a5bde6-eafe-4f50-8d2d-962b4d18c34c)
-![image](https://github.com/user-attachments/assets/a999f232-fdd8-4597-abe0-670c91938fa7)
-![image](https://github.com/user-attachments/assets/3cd3408e-b58c-4ae6-9c4d-d659a4292321)
-
